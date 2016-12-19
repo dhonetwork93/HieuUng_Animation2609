@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.hxd.hoxuandieu.hieuung_animation2609.MainActivity">
+
+    <ImageView
+        android:id="@+id/imgAlpha"
+        android:src="@drawable/androidtool"
+        android:background="#050505"
+        android:layout_width="200dp"
+        android:layout_height="200dp" />
+
+    <ImageView
+        android:id="@+id/imgRolate"
+        android:layout_toRightOf="@id/imgAlpha"
+        android:src="@drawable/bell"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <ImageView
+        android:id="@+id/imgScale"
+        android:src="@drawable/ball"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/imgRolate"
+        android:layout_toRightOf="@+id/imgAlpha"
+        android:layout_toEndOf="@+id/imgAlpha" />
+
+    <ImageView
+        android:id="@+id/imgTranslase"
+        android:src="@drawable/ball"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/imgRolate"
+        android:layout_toRightOf="@+id/imgScale"
+        android:layout_toEndOf="@+id/imgScale" />
+    <ImageView
+        android:id="@+id/imgAll"
+        android:layout_below="@id/imgAlpha"
+        android:src="@drawable/bell"
+        android:layout_width="300dp"
+        android:layout_height="200dp" />
+</RelativeLayout>

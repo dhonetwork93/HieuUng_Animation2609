@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <!--android:fillAfter="true" //dừng lại ở cuối hieuj ứng-->
+
+
+    <!--//duration tự gõ ,, thời gian hiển thị-->
+    <!--//android:repeatCount="2" số lần lặp lại ko tính lần đầu infinite lặp vô tận-->
+    <!--android:repeatMode="reverse" //kiêu lặp , mặc định là resstart-->
+    <!--android:startOffset="3000" // sau thơi gian thi mới chạy hiệu ứng-->
+
+    <alpha
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:fillAfter="true"
+        android:fromAlpha="1"
+        android:toAlpha="0.3"
+        android:duration="1100"
+        android:repeatCount="infinite"
+        android:repeatMode="reverse"
+        android:startOffset="3000"
+
+
+        />
+
+</set>
